@@ -213,27 +213,45 @@ const Portfolio = () => {
               <div className="space-y-6">
                 <div className="bg-white/80 p-6 rounded-lg shadow-sm border border-sky-100">
                   <h4 className="text-xl font-semibold text-sky-700 mb-2">
-                    Senior Developer
+                    Software Developer
                   </h4>
                   <p className="text-gray-600 mb-2">
-                    Tech Company • 2022 - Present
+                    4V Services • March 2022 - Present
                   </p>
                   <p className="text-gray-700">
-                    Led development of full-stack applications using React and
-                    Node.js. Collaborated with cross-functional teams to deliver
-                    high-quality solutions.
+                    Implemented backend library functions in JavaScript and
+                    XQuery for entity mapping in Data Hub's Web UI. Developed
+                    custom mapping logic, worked on 50+ unit test suites, and
+                    collaborated across teams for data harmonization. Led code
+                    reviews and technical interviews.
                   </p>
                 </div>
                 <div className="bg-white/80 p-6 rounded-lg shadow-sm border border-sky-100">
                   <h4 className="text-xl font-semibold text-sky-700 mb-2">
-                    Full Stack Developer
+                    Data Operations Specialist
                   </h4>
                   <p className="text-gray-600 mb-2">
-                    Startup Inc • 2020 - 2022
+                    Marxent 3D Cloud • March 2021 - July 2021
                   </p>
                   <p className="text-gray-700">
-                    Developed and maintained web applications, implemented CI/CD
-                    pipelines, and optimized application performance.
+                    Worked on a cross-functional scrum team to deploy custom 3D
+                    model applications. Developed internal tooling for efficient
+                    3D model data loading and created an API scraping tool in
+                    Node.js for bulk data collection.
+                  </p>
+                </div>
+                <div className="bg-white/80 p-6 rounded-lg shadow-sm border border-sky-100">
+                  <h4 className="text-xl font-semibold text-sky-700 mb-2">
+                    Compliance Coordinator
+                  </h4>
+                  <p className="text-gray-600 mb-2">
+                    Uber Technologies • June 2019 - February 2020
+                  </p>
+                  <p className="text-gray-700">
+                    Provided software solutions and data analysis for Florida
+                    alcohol law compliance. Developed data auditing tools with
+                    Google App Script and created a Sheets extension for
+                    automated alcohol delivery partner onboarding.
                   </p>
                 </div>
               </div>
@@ -245,22 +263,26 @@ const Portfolio = () => {
               <div className="space-y-6">
                 <div className="bg-white/80 p-6 rounded-lg shadow-sm border border-sky-100">
                   <h4 className="text-xl font-semibold text-sky-700 mb-2">
-                    Computer Science Degree
+                    Bachelor of Science in Computer Science
                   </h4>
                   <p className="text-gray-600 mb-2">
-                    University Name • 2018 - 2022
+                    University of Central Florida • 2018 - 2022
                   </p>
                   <p className="text-gray-700">
-                    Bachelor's degree in Computer Science with focus on software
-                    engineering and web development technologies.
+                    Focused on software engineering, algorithms, and systems
+                    programming. Graduated with honors.
                   </p>
                 </div>
               </div>
               <div className="mt-8">
-                <button className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center space-x-2">
+                <a
+                  href="/resume/GregoryDStula_Resume_2025.pdf"
+                  download="GregoryDStula_Resume_2025.pdf"
+                  className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center space-x-2 inline-block"
+                >
                   <Download size={20} />
                   <span>Download Resume</span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
