@@ -276,8 +276,10 @@ const Portfolio = () => {
               </div>
               <div className="mt-8">
                 <a
-                  href="/resume/GregoryDStula_Resume_2025.pdf"
+                  href="resume/GregoryDStula_Resume_2025.pdf"
                   download="GregoryDStula_Resume_2025.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center space-x-2 inline-block"
                 >
                   <Download size={20} />
