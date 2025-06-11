@@ -454,10 +454,6 @@ const Portfolio = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4 text-gray-700">
-                  <Mail className="text-sky-600" size={20} />
-                  <span>greg.stula@example.com</span>
-                </div>
-                <div className="flex items-center space-x-4 text-gray-700">
                   <Github className="text-sky-600" size={20} />
                   <span>github.com/gregstula</span>
                 </div>
