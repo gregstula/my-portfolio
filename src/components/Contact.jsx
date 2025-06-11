@@ -30,13 +30,25 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <div className="space-y-6">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              className="space-y-6"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <div hidden>
+                <input name="bot-field" />
+              </div>
               <div>
                 <label className="block text-sky-900 text-sm font-medium mb-2">
                   Name
                 </label>
                 <input
                   type="text"
+                  name="name"
+                  required
                   className="w-full px-4 py-3 bg-white/80 border border-sky-200 rounded-lg text-gray-900 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
                   placeholder="Your name"
                 />
@@ -47,6 +59,8 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
+                  name="email"
+                  required
                   className="w-full px-4 py-3 bg-white/80 border border-sky-200 rounded-lg text-gray-900 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
                   placeholder="your.email@example.com"
                 />
@@ -56,23 +70,20 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea
+                  name="message"
+                  required
                   rows={4}
                   className="w-full px-4 py-3 bg-white/80 border border-sky-200 rounded-lg text-gray-900 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
                   placeholder="Your message..."
                 ></textarea>
               </div>
               <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  alert(
-                    "Contact form submitted! (This is a demo - integrate with your backend)"
-                  );
-                }}
+                type="submit"
                 className="w-full bg-sky-600 hover:bg-sky-700 text-white py-3 rounded-lg font-medium transition-colors"
               >
                 Send Message
               </button>
-            </div>
+            </form>
           </div>
         </div>
       </div>
