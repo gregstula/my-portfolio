@@ -160,7 +160,7 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/src/assets/AboutMe.jpeg"
+                src="/images/AboutMe.jpeg"
                 alt="Greg Stula"
                 className="w-64 h-64 mx-auto rounded-lg object-cover shadow-lg"
               />
