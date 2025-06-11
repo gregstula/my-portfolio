@@ -266,12 +266,9 @@ const Portfolio = () => {
                     Bachelor of Science in Computer Science
                   </h4>
                   <p className="text-gray-600 mb-2">
-                    University of Central Florida • 2018 - 2022
+                    Oregon State University • Class of 2022
                   </p>
-                  <p className="text-gray-700">
-                    Focused on software engineering, algorithms, and systems
-                    programming. Graduated with honors.
-                  </p>
+                  <p className="text-gray-700">Located in Corvallis, Oregon</p>
                 </div>
               </div>
               <div className="mt-8">
