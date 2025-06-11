@@ -130,9 +130,11 @@ const Portfolio = () => {
       <section className="pt-16 min-h-screen flex items-center justify-center px-4">
         <div className="text-center">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-r from-sky-400 to-blue-500 rounded-full flex items-center justify-center text-4xl font-bold text-white">
-              GS
-            </div>
+            <img
+              src="https://github.com/gregstula.png"
+              alt="Greg Stula"
+              className="w-32 h-32 mx-auto mb-6 rounded-full border-4 border-white shadow-lg"
+            />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-sky-900 mb-6">
             Greg Stula
@@ -157,9 +159,11 @@ const Portfolio = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="w-64 h-64 mx-auto bg-gradient-to-r from-sky-400 to-blue-500 rounded-lg flex items-center justify-center text-6xl">
-                👨‍💻
-              </div>
+              <img
+                src="/src/assets/AboutMe.jpeg"
+                alt="Greg Stula"
+                className="w-64 h-64 mx-auto rounded-lg object-cover shadow-lg"
+              />
             </div>
             <div className="text-gray-700 leading-relaxed">
               <p className="mb-6">
@@ -272,25 +276,26 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white/80 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 shadow-sm border border-sky-100">
               <div className="h-48 bg-gradient-to-r from-sky-400 to-blue-500 flex items-center justify-center">
-                <Code size={48} className="text-white" />
+                <Gamepad2 size={48} className="text-white" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-sky-900 mb-2">
-                  Project One
+                  Quick Snake
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  A full-stack web application built with React and Node.js
-                  featuring real-time updates.
+                  A fast-paced terminal snake-like game that will test your
+                  reflexes! Built with C++.
                 </p>
                 <div className="flex space-x-4">
-                  <button className="text-sky-600 hover:text-sky-700 flex items-center space-x-1">
+                  <a
+                    href="https://github.com/gregstula/quick-snake"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sky-600 hover:text-sky-700 flex items-center space-x-1"
+                  >
                     <Github size={16} />
                     <span>Code</span>
-                  </button>
-                  <button className="text-sky-600 hover:text-sky-700 flex items-center space-x-1">
-                    <ExternalLink size={16} />
-                    <span>Demo</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -301,46 +306,74 @@ const Portfolio = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-sky-900 mb-2">
-                  Project Two
+                  CHIP-8 Emulator
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Mobile-responsive e-commerce platform with payment integration
-                  and admin dashboard.
+                  A CHIP-8 emulator written in C++, implementing the classic
+                  virtual machine architecture.
                 </p>
                 <div className="flex space-x-4">
-                  <button className="text-sky-600 hover:text-sky-700 flex items-center space-x-1">
+                  <a
+                    href="https://github.com/gregstula/chip8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sky-600 hover:text-sky-700 flex items-center space-x-1"
+                  >
                     <Github size={16} />
                     <span>Code</span>
-                  </button>
-                  <button className="text-sky-600 hover:text-sky-700 flex items-center space-x-1">
-                    <ExternalLink size={16} />
-                    <span>Demo</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div className="bg-white/80 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 shadow-sm border border-sky-100">
               <div className="h-48 bg-gradient-to-r from-cyan-500 to-teal-500 flex items-center justify-center">
-                <Code size={48} className="text-white" />
+                <FileText size={48} className="text-white" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-sky-900 mb-2">
-                  Project Three
+                  Unix Config
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Data visualization dashboard using D3.js and React for
-                  interactive analytics.
+                  My Unix system configuration files and setup scripts for a new
+                  system.
                 </p>
                 <div className="flex space-x-4">
-                  <button className="text-sky-600 hover:text-sky-700 flex items-center space-x-1">
+                  <a
+                    href="https://github.com/gregstula/unix-config"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sky-600 hover:text-sky-700 flex items-center space-x-1"
+                  >
                     <Github size={16} />
                     <span>Code</span>
-                  </button>
-                  <button className="text-sky-600 hover:text-sky-700 flex items-center space-x-1">
-                    <ExternalLink size={16} />
-                    <span>Demo</span>
-                  </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/80 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 shadow-sm border border-sky-100">
+              <div className="h-48 bg-gradient-to-r from-teal-500 to-emerald-500 flex items-center justify-center">
+                <Gamepad2 size={48} className="text-white" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-sky-900 mb-2">
+                  Sudoku NCurses
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  A terminal-based Sudoku game built with C++ and NCurses for a
+                  classic gaming experience.
+                </p>
+                <div className="flex space-x-4">
+                  <a
+                    href="https://github.com/gregstula/sudoku-ncurses"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sky-600 hover:text-sky-700 flex items-center space-x-1"
+                  >
+                    <Github size={16} />
+                    <span>Code</span>
+                  </a>
                 </div>
               </div>
             </div>
