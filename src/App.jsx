@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
-import Solitaire from "./components/Solitaire";
+// import Solitaire from "./components/Solitaire";
 import Contact from "./components/Contact";
 
 const Portfolio = () => {
@@ -25,7 +25,7 @@ const Portfolio = () => {
   // Handle scroll spy for active section
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["about", "resume", "projects", "solitaire", "contact"];
+      const sections = ["about", "resume", "projects", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const sectionId of sections) {
@@ -56,7 +56,7 @@ const Portfolio = () => {
       <About />
       <Resume />
       <Projects />
-      <Solitaire />
+      {/* <Solitaire /> */}
       <Contact />
       <Footer />
     </div>
